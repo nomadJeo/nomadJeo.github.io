@@ -23,7 +23,7 @@ JavaScript有7种基本数据类型（Primitive Data Types）：
 
 ### 一、字符串（String）转换
 
-#### 显示转换
+显示转换
 
 ```js
 String(123)    // "123"
@@ -33,7 +33,7 @@ String(undefined) // "undefined"
 String(Symbol("x")) // "Symbol(x)"
 ```
 
-#### 隐式转换
+隐式转换
 
 * 拼接时会把非字符串转成字符串：
 
@@ -46,7 +46,7 @@ String(Symbol("x")) // "Symbol(x)"
 
 ### 二、数字（Number）转换
 
-#### 显示转换
+显示转换
 
 ```js
 Number("123")   // 123
@@ -59,7 +59,7 @@ Number(null)    // 0
 Number(undefined) // NaN
 ```
 
-#### 隐式转换
+隐式转换
 
 * 算术运算：
 
@@ -74,7 +74,7 @@ Number(undefined) // NaN
 
 ### 三、布尔值（Boolean）转换
 
-#### 显示转换
+显示转换
 
 ```js
 Boolean(0)        // false
@@ -86,7 +86,7 @@ Boolean("0")      // true  （非空字符串都是真）
 Boolean([])       // true  （空数组也是真）
 ```
 
-#### 隐式转换
+隐式转换
 
 * `if (...)` 判断里会自动转布尔
 
