@@ -171,6 +171,19 @@ JS 类型转换最著名的“黑魔法”：
 
 ---
 
+### 字面量
+
+在 JavaScript 中，字面量可以表示值。这些字面量是脚本中按字面意思给出的固定的值，而不是变量。
+
+支持的字面量：
+
+* 数组字面量
+* 布尔字面量
+* 数字字面量
+* 对象字面量
+* RegExp 字面量
+* 字符串字面量
+
 ## 参照
 
 * [JavaScript 语法与类型](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_types)
