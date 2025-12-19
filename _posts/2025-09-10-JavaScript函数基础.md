@@ -4,7 +4,6 @@ date: 2025-09-10
 categories: [ 前端, JavaScript ]
 tags: [ JavaScript ]
 mermaid: true
-order: 305
 ---
 
 ## 函数声明和定义
